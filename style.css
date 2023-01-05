@@ -1,0 +1,248 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation Bar */
+#navbar {
+
+    display: flex;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* logo and bg images of navbar */
+#logo {
+
+    margin: 12px 14px;
+
+}
+
+#logo img {
+
+    width: 119px;
+    height: 116px;
+
+}
+
+/* list styling of navbar */
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px 44px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#navbar ul li a:hover {
+
+    text-decoration: underline;
+    /* background-color: skyblue; */
+
+}
+
+/* <------------------------ Section Styling -------------------------> */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+
+}
+
+#home::before {
+    content: "";
+    background: url('bgnew.jpg');
+    position: absolute;
+    top: 143px;
+    left: -1px;
+    z-index: -1;
+    height: 180%;
+    width: 100%;
+    opacity: 0.99;
+}
+
+#home h1 {
+    color: #5d4037;
+    text-align: center;
+}
+
+#home p {
+    color: #5d4037;
+    font-size: 1.3rem;
+}
+
+/* <-------------------- Utility Classes -----------------------> */
+
+.primaryheading {
+
+    font-size: 2.8rem;
+    padding: 10px;
+    margin-top: -163px;
+
+
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 15px;
+    margin: 13px;
+    border: 3px solid black;
+    border-radius: 26px;
+    background-color: #b71c1c;
+    color: white;
+    text-decoration: double;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+#services {
+    /* margin: 20px; */
+    display: flex;
+
+}
+
+#services .box {
+
+    /* border: 5px solid #ffff ; */
+    padding: 34px;
+    margin: 25px 150px;
+    border-radius: 23px;
+    text-align: center;
+    /* background-color:#ffffff; */
+    z-index: -1;
+    position: relative;
+    left: 20px;
+    background-color: #5d4037;
+
+}
+
+#services .box img {
+
+    height: 156px;
+    margin: auto;
+    display: block;
+    /* width: 36%; */
+}
+
+.primaryheading-center {
+    margin-left: 600px;
+    margin-top: -120px;
+    color: #5d4037;
+    font-size: 2.4rem;
+    /* background-color: black;
+    margin-right: 680px;
+    text-align: center; */
+}
+
+#services .box p {
+
+    color: white;
+
+}
+
+/* <-------------------------- Client Section ------------------------> */
+
+#client-heading {
+
+    text-align: center;
+    margin-top: 70px;
+    font-size: 2.4rem;
+    color: #5d4037;
+}
+
+#client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#client img {
+    margin-top: 58px;
+    padding: 40px;
+}
+
+
+/* <------------------------------- Contact Us Section --------------------------> */
+
+#contactheading {
+    text-align: center;
+    font-size: 2.4rem;
+    color: #ffff;
+    margin-top: 40px;
+    padding-top: 28px;
+    margin-left: 75px;
+
+
+
+}
+#contact{
+    background-color: black;
+    height: 293px;
+}
+
+label{
+    color: white;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #contact-box form{
+    width: 40%;
+} */
+
+#contact-box input{
+    width: 127%;
+    padding: 0.5rem;
+    border-radius: 20px;
+
+}
+
+.formgroup button{
+    margin-top: 15px;
+    margin-left: 151px;
+    padding: 6px;
+    background-color: #b71c1c;
+    color: white;
+    cursor: pointer;
+}
+
+/* <---------------- footer --------------------> */
+
+#footer{
+    background-color: white;
+    color: black;
+    padding: 9px 9px;
+    font-size: 1.3rem;
+    
+}
